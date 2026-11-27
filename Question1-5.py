@@ -25,3 +25,21 @@ if a>b:
     print(a,"is max")
 else:
     print(b,"is max")
+#---------------------------------------------------------------
+# Q) Write a program to check number is divisible by 5 or not.
+
+num = int(input("enter a number :"))
+
+if num%5==0:
+    print(num,"Number is divisible by 5")
+else:
+    print(num,"Number is not divisible by 5")
+#---------------------------------------------------------------
+# Q) Write a program to check a given number is even but number is positive integer.
+
+num = int(input("Enter a number :"))
+
+if num%2==0 and num>0:
+    print("Number is even and positive integer")
+else:
+    print("Number is not even or not positive integer")
